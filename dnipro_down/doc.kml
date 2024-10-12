@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>dnipro_down.kmz</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>dnipro_down</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				35.08547022353972,47.86790317834258,0 35.08976699981782,47.83774187251998,0 35.14368745488058,47.81315787058995,0 35.16353967451138,47.78978215237896,0 35.15888202512887,47.75700563987697,0 35.1408645103805,47.70064667517011,0 35.13991250280207,47.6743866961101,0 35.16425092727735,47.65742508302497,0 35.15297579994214,47.61647259232308,0 35.10715867696111,47.54035178687072,0 34.78277130513801,47.52679634613226,0 34.56134258049115,47.55646574976318,0 34.32302029381636,47.52297686140241,0 34.17242756430745,47.47296268278519,0 34.03408143104279,47.44700171071874,0 33.93179346777429,47.23607388158339,0 33.78496812630927,47.08554551935104,0 33.63245848923572,46.91659859705916,0 33.61630402829486,46.86769508532247,0 33.55231745153774,46.83807447485701,0 33.42535043076494,46.8144015673534,0 33.40454829254374,46.78844317189287,0 33.35223543832822,46.77252584444378,0 33.1850931078301,46.77263319551627,0 32.99339677486164,46.72853235197181,0 32.88989078217384,46.70725607378515,0 32.7948062589194,46.66157811887859,0 32.67135708129695,46.63132770512443,0 32.58737143108175,46.57065498986717,0 32.46249634481197,46.54168576060769,0 32.40107717803402,46.51813219447742,0 32.29880174814741,46.51228200526916,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
