@@ -57,3 +57,5 @@ nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8, label
 
 plt.title("Графік залежностей: Увага та задіяні частини мозку", fontsize=15)
 plt.show()
+
+
