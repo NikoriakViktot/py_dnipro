@@ -67,7 +67,7 @@ for feature in geojson['features']:
 region = geemap.geojson_to_ee(json.dumps(modified_geojson_path))
 
 # Створення буфера навколо лінії
-buffer_distance = 5000  # Ви можете змінити це значення відповідно до вашої задачі
+buffer_distance = 5000
 region_buffer = region.geometry().buffer(buffer_distance)
 
 # Вибір DEM та кліпування за буферизованою областю

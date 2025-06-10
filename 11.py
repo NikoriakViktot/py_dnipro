@@ -14,7 +14,7 @@ with open(modified_geojson_path, 'r') as file:
 # Передаємо модифікований GeoJSON об'єкт безпосередньо у geemap.geojson_to_ee
 region = geemap.geojson_to_ee(geojson)
 
-buffer_distance = 5000  # 5 км, ви можете змінити це значення
+buffer_distance = 5000  # 5 км
 region_buffer = region.geometry().buffer(buffer_distance)
 
 
@@ -22,7 +22,6 @@ region_buffer = region.geometry().buffer(buffer_distance)
 # Перевірка ініціалізації
 print(ee.Image("USGS/SRTMGL1_003").getInfo())
 
-# Це допоможе вам підтвердити, що з'єднання з GEE працює правильно
 
 # Вибір DEM та обрізка за буферизованою областю
 dem = ee.Image("USGS/SRTMGL1_003").clip(region_buffer)
